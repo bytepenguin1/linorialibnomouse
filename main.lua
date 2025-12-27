@@ -5,7 +5,7 @@ local Teams = cloneref(game:GetService('Teams'))
 local Players = cloneref(game:GetService('Players'))
 local RunService = cloneref(game:GetService('RunService'))
 local TweenService = cloneref(game:GetService('TweenService'))
-local RenderStepped = cloneref(RunService.RenderStepped)
+local RenderStepped = RunService.RenderStepped
 local LocalPlayer = Players.LocalPlayer;
 local Mouse = cloneref(LocalPlayer:GetMouse())
 
